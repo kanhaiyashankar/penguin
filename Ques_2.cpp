@@ -5,7 +5,8 @@ using namespace std;
 
 int check(int x)
 {
-	return x > 51 ? (x-51) * 3 : 51-x ;
+    const int n = 51;
+	return x > n ? (x - n) * 3 : n-x ;
 }
 
 int main()
